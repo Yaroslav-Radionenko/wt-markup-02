@@ -22,7 +22,7 @@ body {
 
 .header {
     background-color: var(--primary-white-colour);
-    color: var(--title-text-colour);
+    color: var(--primary-text-colour);
     padding: 20px 0;
 }
 
