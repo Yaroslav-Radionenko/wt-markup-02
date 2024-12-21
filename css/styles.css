@@ -48,7 +48,7 @@ body {
 }
 
 .hero {
-    background-color: var(--primary-grey-colour);
+    background-color: var(--primary-dark-colour);
     text-align: center;
 }
 
