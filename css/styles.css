@@ -107,3 +107,15 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.crew-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 50px 0;
+}
+
+.crew-list li {
+    text-align: center;
+}
