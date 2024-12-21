@@ -29,7 +29,7 @@ body {
 .header .logo {
     font-size: 24px;
     font-weight: bold;
-    color: var(--primary-white-colour);
+    color: var(--title-text-colour);
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .header .nav-list a {
-    color: var(--primary-white-colour);
+    color: var(--title-text-colour);
     text-decoration: none;
     font-weight: 500;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .hero h1 {
-    color: var(--title-text-colour);
+    color: var(--primary-white-colour);
     font-size: 36px;
     margin-bottom: 20px;
 }
