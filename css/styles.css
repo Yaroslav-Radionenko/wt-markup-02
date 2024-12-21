@@ -12,18 +12,17 @@ body {
     margin: 0;
     padding: 0;
     color: var(--primary-text-colour);
-    background-color: var(--primary-dark-colour);
+    background-color: var(--primary-white-colour);
 }
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .header {
-    background-color: var(--primary-dark-colour);
-    color: var(--primary-white-colour);
+    background-color: var(--primary-white-colour);
+    color: var(--title-text-colour);
     padding: 20px 0;
 }
 
