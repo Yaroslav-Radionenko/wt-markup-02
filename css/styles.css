@@ -50,6 +50,7 @@ body {
 .hero {
     background-color: var(--primary-dark-colour);
     text-align: center;
+    width: 1600 px;
 }
 
 .hero h1 {
