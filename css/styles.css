@@ -76,6 +76,19 @@ body {
     padding: 40px 0;
 }
 
+.works {
+    background-color:var(--primary-white-colour);
+    padding: 40px 0;
+}
+
+.crew {
+    background-color: var(--primary-grey-colour);
+    /* Світло-сірий фон для секції команди */
+    padding: 40px 0;
+}
+
+
+
 .features-list {
     display: flex;
     justify-content: space-between;
