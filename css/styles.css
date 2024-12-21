@@ -1,101 +1,109 @@
 :root {
-    --primary-text-color: rgb(0, 0, 0);
-    --title-text-color: #000000;
-    --accent-color: #1d77de;
-    --primary-white-color: #ffffff;
-    --primary-grey-color: #f2f1f9;
-    --primary-dark-color: #23242c;
+    --primary-text-colour: rgb(0, 0, 0);
+    --title-text-colour: #000000;
+    --accent-colour: #1d77de;
+    --primary-white-colour: #ffffff;
+    --primary-grey-colour: #f2f1f9;
+    --primary-dark-colour: #23242c;
 }
 
 body {
-    margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: var(--primary-grey-color);
-    color: var(--primary-text-color);
+    margin: 0;
+    padding: 0;
+    color: var(--primary-grey-colour);
+    background-color: var(--primary-white-colour);
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .header {
-    background-color: var(--primary-dark-color);
-    color: var(--primary-white-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: var(--primary-dark-colour);
+    color: var(--primary-white-colour);
     padding: 20px 0;
 }
 
-.nav-list {
-    display: flex;
-    gap: 20px;
-    list-style: none;
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-white-colour);
+    text-decoration: none;
 }
 
-.nav-list a {
-    color: var(--primary-white-color);
+.header .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header .nav-list a {
+    color: var(--primary-white-colour);
     text-decoration: none;
     font-weight: 500;
 }
 
-.nav-list a:hover {
-    color: var(--accent-color);
-}
-
-.contacts {
-    display: flex;
-    gap: 15px;
-}
-
-.contacts a {
-    color: var(--primary-white-color);
-    text-decoration: none;
-}
-
 .hero {
+    background-color: var(--primary-grey-colour);
     text-align: center;
-    padding: 50px 0;
-    background-color: var(--primary-dark-color);
-    color: var(--primary-white-color);
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    color: var(--title-text-colour);
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 .btn-primary {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
+    background-color: var(--accent-colour);
+    color: var(--primary-white-colour);
     border: none;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: var(--primary-white-colour);
+    padding: 40px 0;
 }
 
 .features-list {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
     list-style: none;
-    margin: 0;  
-    padding: 50px 0;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
 }
 
 .features-list li {
-    background-color: var(--primary-white-color);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
     text-align: center;
+    flex: 1;
 }
 
-.crew-list {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    list-style: none;
-    padding: 50px 0;
+.features-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--title-text-colour);
 }
 
-.crew-list li {
+.features-list p {
+    color: var(--primary-text-colour);
+    font-size: 14px;
+}
+
+footer {
+    background-color: var(--primary-dark-colour);
+    color: var(--primary-white-colour);
     text-align: center;
+    padding: 20px 0;
 }
